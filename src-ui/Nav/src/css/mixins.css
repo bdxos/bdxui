@@ -1,0 +1,7 @@
+@define-mixin build-nav-theme-model {
+	.nav {
+		&__link {
+			
+		}
+	}
+}

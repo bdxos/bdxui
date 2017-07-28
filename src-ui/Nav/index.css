@@ -1,0 +1,24 @@
+/** @define nav */
+
+:root {
+	
+}
+
+.nav {
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+	
+	&__item {}
+
+	&__link {
+		padding: 0.5em 1em;
+		display: block;
+		&.is-active {
+			color: color(#FFFFFF33);
+		}
+		&.is-disabled {
+			cursor: not-allowed;
+		}
+	}
+}

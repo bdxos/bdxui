@@ -1,0 +1,47 @@
+:root {
+	/* 非衬线字体 */
+	--font-family-sans-serif: "-apple-system", "system-ui", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Microsoft YaHei", "sans-serif";
+	/* 等宽字体 */
+	--font-family-monospace: "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace";
+	/* Base */
+	--base-spacer: 1rem;
+	--base-spacer-0: 0;
+	--base-spacer-1: calc(var(--base-spacer) * .25);
+	--base-spacer-2: calc(var(--base-spacer) * .5);
+	--base-spacer-3: var(--base-spacer);
+	--base-spacer-4: calc(var(--base-spacer) * 1.5);
+	--base-spacer-5: calc(var(--base-spacer) * 3);
+	--base-font-size: 1rem;
+	--base-font-size-lg: calc(var(--base-font-size) * 1.25);
+	--base-font-size-sm: calc(var(--base-font-size) * .875);
+	--base-font-size-xs: calc(var(--base-font-size) * .75);
+	/* body */
+	--body-font-size: var(--base-font-size);
+	--body-font-weight: normal;
+	--body-line-height: 1.5;
+	--body-font-family: var(--font-family-sans-serif);
+	/* Link */
+	--link-decoration: none;
+	--link-hover-decoration: underline;
+	/* headings h1-h6 */
+	--h1-font-size: 2.5rem;
+	--h2-font-size: 2rem;
+	--h3-font-size: 1.75rem;
+	--h4-font-size: 1.5rem;
+	--h5-font-size: 1.25rem;
+	--h6-font-size: 1rem;
+	--headings-margin-bottom: var(--base-spacer-2);
+	--headings-font-family: inherit;
+	--headings-font-weight: 500;
+	--headings-line-height: 1.1;
+	/* display */
+	--display1-size: 6rem;
+	--display2-size: 5.5rem;
+	--display3-size: 4.5rem;
+	--display4-size: 3.5rem;
+	--display1-weight: 300;
+	--display2-weight: 300;
+	--display3-weight: 300;
+	--display4-weight: 300;
+	--display-line-height: var(--headings-line-height);
+}

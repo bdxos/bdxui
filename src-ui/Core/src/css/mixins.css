@@ -1,0 +1,20 @@
+@define-mixin CoreThemeModel {
+	.theme {
+		&--__MODEL__ {
+			color: $ThemeTextPrimary;
+			background-color: $ThemeColor;
+		}
+	}
+}
+
+@define-mixin CoreThemeBase {
+	.theme {
+		&--__BASE__ {
+			& a {
+				color: $ThemePrimaryColor;
+			}
+		}
+	}
+}
+
+@define-mixin CoreThemeColor {}
